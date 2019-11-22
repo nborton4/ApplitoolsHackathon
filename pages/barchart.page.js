@@ -1,3 +1,7 @@
+/**
+ * PAGE MODEL FOR CANVAS PAGE. IT EXECUTE THE JAVASCRIPT RESPONSIBLE FOR DISPLAYING THE CANVAS VALUES
+ */
+
 class expenses{
     get showExpensesChart() { return $('#showExpensesChart') }
     get chartCanvas() { return $('canvas') }

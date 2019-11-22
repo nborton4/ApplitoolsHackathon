@@ -1,3 +1,6 @@
+/**
+ * PAGE MODEL FOR REQUIRED ELEMENTS IN https://demo.applitools.com/hackathon.html?showAd=true
+ */
 const { assertElement } = require ('../util/assert_utils')
 
 class ad{

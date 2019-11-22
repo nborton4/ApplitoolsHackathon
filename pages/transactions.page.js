@@ -1,3 +1,7 @@
+/**
+ * PAGE MODEL FOR REQUIRED ELEMENTS/FUNCTIONS FOR TRANSACTION TABLE
+*/
+
 class transactions{
 
     get tableTransactions() {return $('#transactionsTable') } 

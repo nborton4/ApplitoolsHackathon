@@ -1,9 +1,10 @@
+/**
+ * PAGE MODEL FOR REQUIRED ELEMENTS/FUNCTIONS FOR LOGIN PAGE
+ */
+
 const { assertElement , assertText, assertPlaceholder, assertCheckboxStatus} = require ('../util/assert_utils')
 
 class login{
-    /**
-     * UI Elements(fields, labels, ...etc)
-     */
 
     get imgLogo() { return $("img[src='img/logo-big.png']")}
     get linkLogo() { return $("a[href='index.html']") }

@@ -1,3 +1,7 @@
+/**
+ * CANVAS VALUES TO BE VERIFIED ARE STORED IN THIS DATA FILE
+ */
+
 module.exports = {
     jan2017:'10',
     feb2017:'20',

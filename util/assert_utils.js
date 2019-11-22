@@ -1,3 +1,7 @@
+/**
+ * CUSTOM ASSERT METHOD TO BE CALLED IN PAGE MODELS. THE CAN ASSERT ELEMENT VISIBILITY, ELEMENT TEXT, ELEMENT PLACE
+ * HOLDER, AND CHECKBOX STATUS
+ */
 const assert = require('assert')
 
 const assertElement = (element) => {

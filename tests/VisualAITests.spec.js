@@ -12,9 +12,13 @@
   * THIS VISUAL TEST USES APPLITOOLS. IT PERFORM THE SAME STEPS AS IN THE "TraditionalTests"
   * AND CAPTURES SCREENSHOTS
   */
+
+  //Page model(s)
 const login = require("../pages/login.page")
+//Data file(s)
 const logindata = require("../data/logindata")
 
+//Importing & initializing the SDK
 const eyesKey = require('../variables/applitools')
 const {ClassicRunner,Eyes,Target} = require('@applitools/eyes-webdriverio');
 const {Configuration} = require('@applitools/eyes-selenium');
@@ -29,7 +33,7 @@ configuration.setTestName('Visual AI Tests');
 eyes.setConfiguration(configuration);
 eyes.setApiKey(eyesKey.api)
 
-
+//Start the test
 describe('Hackathon App - Visual Tests', ()=> {
     before(()=> {
         eyes.open(browser);

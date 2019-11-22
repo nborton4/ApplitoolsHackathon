@@ -1,7 +1,7 @@
 ## Applitools Visual AI Rockstar Hackathon
 ## Author: Nadia Beshir
 ## These automated tests uses WebdriverIO 5(https://webdriver.io) & Applitools Visual AI SDK(https://applitools.com)
-## THEY ALSO APPLY MOCHA FRAMEWORK
+## They also apply Mocha Framework
 
 ## To get started, copy this project and run the command:
     npm install

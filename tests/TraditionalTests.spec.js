@@ -2,13 +2,17 @@
   * THIS TRADITIONAL TEST DOESNT USE APPLITOOLS. CATCHES FAILURES AND DISPLAYS CUSTOM ERROR MESSAGES
   */
 
+  //Page model(s)
 const login = require("../pages/login.page")
-const logindata = require("../data/logindata")
 const transactions = require("../pages/transactions.page")
 const barchart = require("../pages/barchart.page")
-const barchartdata = require("../data/barchartdata")
 const ad = require('../pages/ad.page')
 
+//Data file(s)
+const logindata = require("../data/logindata")
+const barchartdata = require("../data/barchartdata")
+
+//Start the test
 describe("Hackathon App: ", function(){
 
     before( () => {
